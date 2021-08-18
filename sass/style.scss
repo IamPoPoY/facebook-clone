@@ -10,13 +10,6 @@ $balandlik: 40px;
     flex-direction: $yonalish;    
 }
 
-@mixin flexCenter($yonalish: row) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: $yonalish;    
-}
-
 * {
     margin: 0;
     padding: 0;
